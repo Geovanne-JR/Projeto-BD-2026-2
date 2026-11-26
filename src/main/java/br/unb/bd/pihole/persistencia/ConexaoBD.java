@@ -8,9 +8,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
- * Fornece conexões com o PostgreSQL (equivale à classe BancoDeDados do TP1).
+ * Fornece conexões com o PostgreSQL.
  *
- * Diferente do TP1, cada operação abre a sua conexão e a fecha no fim
+ * Cada operação abre a sua conexão e a fecha no fim
  * (try-with-resources). Isso evita conexão "pendurada" se o servidor cair e
  * é o padrão recomendado com JDBC.
  *
